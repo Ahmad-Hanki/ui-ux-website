@@ -7,7 +7,7 @@ import bluebutton from "../assets/blue-button.svg";
 import greenButton from "../assets/green-button.svg";
 import pinkButton from "../assets/pink-button.svg";
 
-export function Features() {
+export default function Features() {
   return (
     <div className="flex flex-col gap-y-[56px] py-[56px] lg:py-[120px] lg:gap-y-[80px] ">
       <div className="flex flex-col gap-x-6 sm:flex-row-reverse">
